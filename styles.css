@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: "monospace", serif;
+  font-family: monospace !important;
 }
 
 .nav {
@@ -16,6 +16,7 @@ body {
   width: 100vw;
   background-color: #fff;
   border-bottom: 1px solid rgba(0, 0, 0, 0.16);
+  font-family: monospace;
 }
 
 .nav__logo {
@@ -112,7 +113,7 @@ body {
 }
 
 p {
-  font-family: "Bodoni Moda", serif;
+  font-family: monospace;
 }
 
 main {
@@ -210,7 +211,7 @@ h3 {
 #posts-list > div:first-child h1 {
   font-size: 36px;
   max-width: 900px;
-  font-family: "Poppins", sans-serif;
+  font-family: monospace;
   font-weight: 500;
   font-style: italic;
 }
